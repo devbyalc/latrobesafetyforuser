@@ -85,6 +85,9 @@ public class confirmation extends AppCompatActivity {
 
                okBtn.setBackground(ContextCompat.getDrawable(confirmation.this,R.drawable.buttondisabled));
                okBtn.setEnabled(false);
+
+               cancelBtn.setBackground(ContextCompat.getDrawable(confirmation.this,R.drawable.buttondisabled));
+               cancelBtn.setEnabled(false);
            }
 
        });

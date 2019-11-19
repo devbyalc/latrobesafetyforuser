@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
@@ -103,7 +104,11 @@ public class sendMessage extends AppCompatActivity {
                     }
                 }) ;
 
+                sendBtn.setBackground(ContextCompat.getDrawable(sendMessage.this,R.drawable.buttondisabled));
+                sendBtn.setEnabled(false);
 
+                cancelBtn.setBackground(ContextCompat.getDrawable(sendMessage.this,R.drawable.buttondisabled));
+                cancelBtn.setEnabled(false);
 
             }
         });

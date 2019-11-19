@@ -140,6 +140,9 @@ public class MainActivity extends AppCompatActivity {
                                 ActivityCompat.requestPermissions(MainActivity.this,
                                         new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                                         MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+
+                               // Intent intent = new Intent(MainActivity.this, contactOptions.class);
+                                //startActivity(intent);
                             }
                         })
                         .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
