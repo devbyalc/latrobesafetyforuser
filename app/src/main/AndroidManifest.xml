@@ -17,12 +17,6 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
-        <activity android:name=".PickUpOverview"></activity>
-        <activity android:name=".emergencyOverview" />
-        <activity android:name=".requestHistory" />
-        <activity android:name=".SecurityOverview" />
-        <activity android:name=".SecurityActiveRequest" />
-        <activity android:name=".SecurityCurrentRequests" />
         <activity android:name=".emergency_information" />
         <activity android:name=".confirmation" />
         <activity android:name=".requestForm" />
@@ -30,7 +24,6 @@
         <activity android:name=".sendMessage" />
         <activity android:name=".contactOptions" />
         <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
-        <activity android:name=".MapsActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
